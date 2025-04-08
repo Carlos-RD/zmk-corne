@@ -44,7 +44,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             hold-trigger-on-release;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             hold-trigger-key-positions = <44 42 43 45 46 47 14 15 16 18 17 22 23 24 25 26>;
         };
     };
@@ -69,10 +69,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q                &kp W            &kp E        &kp R              &kp T                             &kp UP                &kp Y            &kp U               &kp I             &kp O                 &kp P                &kp BSPC
-&kp ESC     &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LCMD D  &hml LEFT_SHIFT F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &hml RIGHT_SHIFT J  &hml RIGHT_GUI K  &hml RIGHT_CONTROL L  &hml RIGHT_ALT SEMI  &kp SQT
-&kp LSHIFT  &kp Z                &kp X            &kp C        &kp V              &kp B      &kp SPACE              &kp DOWN              &kp N            &kp M               &kp COMMA         &kp DOT               &kp FSLH             &kp LSHIFT
-                                                  &kp LGUI     &lt 1 SPACE        &lt 3 TAB                                               &lt 3 BACKSPACE  &lt 2 ENTER         &kp DEL
+&kp TAB     &kp Q                &kp W            &kp E        &kp R              &kp T                               &kp UP                &kp Y        &kp U               &kp I            &kp O             &kp P                    &kp BSPC
+&kp ESC     &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LCMD D  &hml LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hml RIGHT_SHIFT J  &hml LEFT_GUI K  &hml RIGHT_ALT L  &hml RIGHT_CONTROL SEMI  &kp SQT
+&kp LSHIFT  &kp Z                &kp X            &kp C        &kp V              &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M               &kp COMMA        &kp DOT           &kp FSLH                 &kp LSHIFT
+                                                  &kp LGUI     &lt 1 TAB          &lt 3 SPACE                                               &lt 3 ENTER  &lt 2 BACKSPACE     &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
