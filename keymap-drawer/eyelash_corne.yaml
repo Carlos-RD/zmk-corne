@@ -45,7 +45,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:apple-keyboard-command$$', h: System}
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-space$$', h: toggle}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - $$mdi:backspace-reverse-outline$$
